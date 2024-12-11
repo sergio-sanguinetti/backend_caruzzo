@@ -22,13 +22,6 @@ app.use((req, res, next) => {
 /***************************/
 
 app.use(require("./auth"));
-app.use(require("./productos"));
-app.use(require("./servicios"));
-app.use(require("./gastos"));
-app.use(require("./activos"));
-app.use(require("./anuncios"));
-app.use(require("./stocks"));
-app.use(require("./clientes"));
 app.use(require("./vehiculos"));
 app.use(require("./lotes"));
 app.use(require("./solicitudesVendedor"));
