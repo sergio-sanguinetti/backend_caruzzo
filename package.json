@@ -1,5 +1,5 @@
 {
-  "name": "software-desguaces-back",
+  "name": "api-caruzzo",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -8,7 +8,10 @@
     "start": "node server/server.js",
     "dev": "nodemon server/server.js"
   },
-  "author": "",
+   "engines": {
+      "node": "18.x"
+   },
+   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
